@@ -29,5 +29,6 @@ Here the "E-step" or "Expectation step" is so-named because it involves updating
 - It can be used for image segmentation.
 
 ### CONS
-- k-means is limited to linear cluster boundaries
+- k-means is limited to linear cluster boundaries , so we use neariest neighbour too in this algo.
 - k-means can be slow for large numbers of samples
+- clusters depend on the intializing positions of the centroids so,we use k-means++ to eliminate this.
